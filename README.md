@@ -5,7 +5,7 @@ How to play :
 
 You play as a cube in a 2D world. When you move, you cannot stop until you reach a solid object. To finish a level, get to the treasure chest ! There are also hidden crowns that you can (you don’t have to) pickup during your game.
 
-This game is just a prototype submitted to the Pixeler’s game jam. It will be deleted when the game jam is finished, but the full version will soon be released.
+This game was released for the Pixeler's game jam, and won the first place !
 
 
 
