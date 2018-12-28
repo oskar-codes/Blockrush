@@ -1,4 +1,4 @@
-# Blockrush
+## A simple concept
 <img alt="blockrush" src="https://cdn.discordapp.com/attachments/404884236542410753/528219427452354560/6C9D2F44-F707-480C-AF45-DE76D772FCE8.jpeg" style="clear:right; float:right; width:250px; height: 250px;"/>
 <hr>
 <img alt="blockrush" src="https://cdn.discordapp.com/attachments/404884236542410753/528239769524895744/B89BA356-E0A1-4C2D-BB55-47CBB26E3953.jpeg" style="clear:right; float:right; width:250px; height: 250px;"/>
