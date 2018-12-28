@@ -1,5 +1,5 @@
 # Blockrush
-Blockrush is a simple Puzzle game created in Lua, using Pico 8. We made the first version in two days for the Pixeler's game jam. Because we liked the concept, we decided to continue it's development, and you can play the latest version <a href="/blockrush.html">here</a>.
+Blockrush is a simple Puzzle game created in Lua, using Pico 8. We made the first version in two days for the Pixeler's game jam. Because we liked the concept, we decided to continue it's development, and you can play the latest version <a href="/Blockrush/blockrush.html">here</a>.
 The concept is simple : you play as a cube in a 2D world. When you move, you cannot stop until you reach a solid object. To finish a level, get to the treasure chest ! There are also hidden crowns that you can (you don’t have to) pickup during your play.
 
 Controls :
