@@ -9,9 +9,9 @@ The concept is simple : you play as a cube in a 2D world. When you move, you can
 
 ### Menu :
 
-- Left and right arrow to navigate
-- X, V, or M to select a level
-- C, Z, or N to toggle music
+- Left, right, up and down arrow to navigate
+- X, V, or M to enter
+- C, Z, or N to go back
 
 
 ### In game :
@@ -31,3 +31,4 @@ The concept is simple : you play as a cube in a 2D world. When you move, you can
 - Electricity : kills you whenever you touch it.
 - Wall spikes : kills you if you move towards them.
 - Arrow : changes your direction to the arrow's direction.
+- Wannabe block : this block is solid, but gets destroyed if you move towards it from far enough.
