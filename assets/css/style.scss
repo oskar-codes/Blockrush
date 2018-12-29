@@ -3,4 +3,12 @@
 $header-bg-color: #7E2553;
 $header-bg-color-secondary: #FFA300;
 $section-headings-color: #ffa300;
+@keyframes fadeIn {
+  from {
+    opacity: 0
+  }
+  to {
+    opcaity: 1
+  }
+}
 @import "{{ site.theme }}";
