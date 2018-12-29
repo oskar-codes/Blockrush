@@ -26,9 +26,9 @@
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-        <a href="{{ site.game_jam_link }}" class="btn">View game jam page</a>
-        <a href="{{ site.play_link }}" class="btn">Play game</a>
+        <a href="{{ site.github.repository_url }}" class="btn fadeIn">View on GitHub</a>
+        <a href="{{ site.game_jam_link }}" class="btn fadeIn">View game jam page</a>
+        <a href="{{ site.play_link }}" class="btn fadeIn">Play game</a>
       {% endif %}
       {% if site.show_downloads %}
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
@@ -36,7 +36,7 @@
       {% endif %}
     </header>
 
-    <main id="content" class="main-content" role="main">
+    <main id="content" class="main-content fadeIn" role="main">
       {{ content }}
 
       <footer class="site-footer">
