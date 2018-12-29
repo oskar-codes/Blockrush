@@ -20,6 +20,6 @@ $section-headings-color: #ffa300;
   }
 }
 .appear {
-  animation: fadeIn 1s, moveUp 0.5s;
+  animation: moveUp 0.5s;
 }
 @import "{{ site.theme }}";
