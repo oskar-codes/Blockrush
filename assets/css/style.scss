@@ -6,14 +6,21 @@ $section-headings-color: #ffa300;
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(400px);
   }
   to {
     opcaity: 1;
+  }
+}
+@keyframes moveUp {
+  from {
+    transform: translateY(400px);
+  }
+  to {
     transform: translateY(0px);
   }
 }
-.fadeIn {
-  animation: fadeIn 0.5s;
+.appear {
+  animation: fadeIn 1s;
+  animation: moveUp 0.5s;
 }
 @import "{{ site.theme }}";
