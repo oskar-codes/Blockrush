@@ -3,8 +3,6 @@
 $header-bg-color: #7E2553;
 $header-bg-color-secondary: #FFA300;
 $section-headings-color: #ffa300;
-$content-height:300px;
-$content-max-height: 700px;
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -15,10 +13,10 @@ $content-max-height: 700px;
 }
 @keyframes moveUp {
   from {
-    transform: translateY($content-max-height);
+    transform: translateY(400px);
   }
   to {
-    transform: translateY($content-height);
+    transform: translateY(0px);
   }
 }
 .appear {
