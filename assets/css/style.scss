@@ -4,6 +4,7 @@ $header-bg-color: #7E2553;
 $header-bg-color-secondary: #FFA300;
 $section-headings-color: #ffa300;
 $content-height:300px;
+$content-max-height: 700px;
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -14,7 +15,7 @@ $content-height:300px;
 }
 @keyframes moveUp {
   from {
-    transform: translateY($content-height+400);
+    transform: translateY($content-max-height);
   }
   to {
     transform: translateY($content-height);
