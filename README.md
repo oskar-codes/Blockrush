@@ -1,19 +1,3 @@
-.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## A simple concept
 <img alt="blockrush" src="https://cdn.discordapp.com/attachments/404884236542410753/528219427452354560/6C9D2F44-F707-480C-AF45-DE76D772FCE8.jpeg" style="margin-left: 30px; clear:right; float:right; width:250px; height: 250px;"/>
 <hr style="float:right; width:250px; clear:right; background-color:#888888;">
