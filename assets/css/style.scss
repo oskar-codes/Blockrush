@@ -1,7 +1,9 @@
 ---
 ---
-$header-bg-color: #7E2553;
-$header-bg-color-secondary: #FFA300;
+--bg-color: none;
+--bg-color-secondary: none;
+$header-bg-color: var(--bg-color);
+$header-bg-color-secondary: var(--bg-color-secondary);
 $section-headings-color: #ffa300;
 @keyframes fadeIn {
   from {
