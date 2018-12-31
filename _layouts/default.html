@@ -58,8 +58,11 @@
       </footer>
     </main>
     <script>
-      document.body.style.setProperty("--bg-color", "green");
-      document.body.style.setProperty("--bg-color-secondary", "blue");
+      var colors = ["#000000", "#1d2b53", "#7e2553", "#008751", "#ab5236", "#5f574f", "#c2c3c7", "#fff1e8", "#ff004d", "#FFA300", "#FFEC27", "#00E436", "#29ADFF", "#83769C", "#FF77A8", "#FFCCAA"];
+      var random1 = colors[Math.floor(Math.random() * colors.length)];
+      var random2 = colors[Math.floor(Math.random() * colors.length)];
+      document.body.style.setProperty("--bg-color", random1);
+      document.body.style.setProperty("--bg-color-secondary", random2);
       setInterval(updateHeight, 1000);
       function updateHeight() {
         var header = document.getElementsByClassName("top-header");
