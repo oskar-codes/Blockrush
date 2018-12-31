@@ -1,7 +1,9 @@
 ---
 ---
---bg-color: none;
---bg-color-secondary: none;
+:root{
+  --bg-color: none;
+  --bg-color-secondary: none;
+}
 $header-bg-color: var(--bg-color);
 $header-bg-color-secondary: var(--bg-color-secondary);
 $section-headings-color: #ffa300;
