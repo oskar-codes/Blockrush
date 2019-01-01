@@ -33,4 +33,4 @@ The concept is simple : you play as a cube in a 2D world. When you move, you can
 - Arrow : changes your direction to the arrow's direction.
 - Wannabe block : this block is solid, but gets destroyed if you move towards it from far enough.
 
-<script type="text/javascript" defer src="//www.123formbuilder.com/embed/4522219.js" data-role="form" data-default-width="650px"></script>
+<script type="text/javascript" defer src="//www.123formbuilder.com/embed/4522219.js?type=lightbox" data-role="form" data-default-width="650px" data-embed-type="lightbox-floating-button" data-embed-image-link="//www.123formbuilder.com/verticalbutton2.php?&bg=5d3d3d&fnt=white&pos=1&text=Rate Blockrush&font=arialblk" data-embed-placement="1"></script>
