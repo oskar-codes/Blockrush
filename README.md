@@ -32,3 +32,5 @@ The concept is simple : you play as a cube in a 2D world. When you move, you can
 - Wall spikes : kills you if you move towards them.
 - Arrow : changes your direction to the arrow's direction.
 - Wannabe block : this block is solid, but gets destroyed if you move towards it from far enough.
+
+<script type="text/javascript" defer src="//www.123formbuilder.com/embed/4522219.js" data-role="form" data-default-width="650px"></script>
