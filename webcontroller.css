@@ -28,7 +28,7 @@
     border-left: 1px solid black;
   }
   img {
-    width: 20%; /* default : 90%*/
+    width: 90%; /* default : 90%*/
   }
   .xy img {
     width: 65%;
