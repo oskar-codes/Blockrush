@@ -9,6 +9,7 @@
     flex:4; 
     height: calc(100vh - 100vw);
     background: black;
+    z-index: 100;
   }
   .touch .pause_container {
     position: absolute;
