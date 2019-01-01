@@ -41,7 +41,7 @@
   .touch .pico8_el {
     display: none;
   }
-  
+@media (max-width: 512px) { 
   .touch body {
     margin: 0;
   }
@@ -58,3 +58,4 @@
     width: 100vw;
     height: 100vw;
   }
+}
