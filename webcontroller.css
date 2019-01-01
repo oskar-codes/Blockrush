@@ -1,10 +1,10 @@
 #btns {
-  display:none;
+  /*display:none;*/
 }
 
 @media (max-width: 512px) {
   .button {
-    /*display: flex;*/
+    display: flex;
     align-items: center;
     justify-content: center;
     flex:4; 
@@ -36,7 +36,7 @@
   }
 
   #btns {
-    /*display: flex;*/
+    display: flex;
   }
   
   .pico8_el {
