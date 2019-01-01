@@ -1,3 +1,6 @@
+document.documentElement.className += 
+(("ontouchstart" in document.documentElement) ? ' touch' : ' no-touch');
+
 var pico8_buttons = [0,0,0,0,0,0,0,0];
 
 const map = {
