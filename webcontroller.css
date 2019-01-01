@@ -1,7 +1,7 @@
 #btns {
   display:none;
 }
-
+/*for any touch device*/
   .touch .button {
     display: flex;
     align-items: center;
@@ -37,6 +37,7 @@
   .touch #btns {
     display: flex;
   }
+/*for any phone touch device*/
  @media (max-width: 512px) { 
   .touch .pico8_el {
     display: none;
