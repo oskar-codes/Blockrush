@@ -3,10 +3,11 @@
 :root{
   --bg-color: none;
   --bg-color-secondary: none;
+  --section-headings-color: none;
 }
 $header-bg-color: var(--bg-color);
 $header-bg-color-secondary: var(--bg-color-secondary);
-$section-headings-color: #ffa300;
+$section-headings-color: var(--section-headings-color);
 @keyframes fadeIn {
   from {
     opacity: 0;
