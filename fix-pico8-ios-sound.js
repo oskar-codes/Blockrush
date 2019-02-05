@@ -17,7 +17,7 @@
   window.AudioContext = function() { return ctx }
 
   // create overlay
-  var o = document.createElement('div')
+  /*var o = document.createElement('div')
   o.innerHTML = 'tap screen to load game'
   o.style.cssText = [
     'position: fixed',
@@ -38,7 +38,7 @@
   o.onclick = function() {
 
     // ...until overlay is clicked
-    document.body.style.overflow = ''
+    document.body.style.overflow = ''*/
 
     // then unlock AudioContext on iOS
     var buffer = ctx.createBuffer(1, 1, 22050)
@@ -53,6 +53,6 @@
     document.body.appendChild(s)
 
     // and delete overlay div
-    document.body.removeChild(o)
+    /*document.body.removeChild(o)*/
   }
 })()
