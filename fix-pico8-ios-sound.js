@@ -32,13 +32,13 @@
     'padding-top: 200px',
   ].map(function(p) { return p + ';' }).join('')
   document.body.appendChild(o)
-
+*/
   // disable scrolling
   document.body.style.overflow = 'hidden'
-  o.onclick = function() {
+  /*o.onclick = function() {*/
 
     // ...until overlay is clicked
-    document.body.style.overflow = ''*/
+    document.body.style.overflow = ''
 
     // then unlock AudioContext on iOS
     var buffer = ctx.createBuffer(1, 1, 22050)
@@ -54,5 +54,5 @@
 
     // and delete overlay div
     /*document.body.removeChild(o)*/
-  }
+  //}
 })()
