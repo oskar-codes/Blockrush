@@ -17,7 +17,7 @@
   window.AudioContext = function() { return ctx }
 
   // create overlay
-  /*var o = document.createElement('div')
+  var o = document.createElement('div')
   o.innerHTML = 'tap screen to load game'
   o.style.cssText = [
     'position: fixed',
@@ -32,7 +32,7 @@
     'padding-top: 200px',
   ].map(function(p) { return p + ';' }).join('')
   document.body.appendChild(o)
-*/
+
   // disable scrolling
   document.body.style.overflow = 'hidden'
   /*o.onclick = function() {*/
@@ -53,6 +53,6 @@
     document.body.appendChild(s)
 
     // and delete overlay div
-    /*document.body.removeChild(o)*/
+    document.body.removeChild(o)
   //}
 })()
