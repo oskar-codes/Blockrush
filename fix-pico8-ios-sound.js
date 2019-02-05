@@ -18,7 +18,7 @@
 
   // create overlay
   var o = document.createElement('div')
-  o.innerHTML = 'tap screen to load game'
+  o.innerHTML = 'Press anywhere'
   o.style.cssText = [
     'position: fixed',
     'top: 0',
@@ -35,7 +35,7 @@
 
   // disable scrolling
   document.body.style.overflow = 'hidden'
-  /*o.onclick = function() {*/
+  o.onclick = function() {
 
     // ...until overlay is clicked
     document.body.style.overflow = ''
@@ -54,5 +54,5 @@
 
     // and delete overlay div
     document.body.removeChild(o)
-  //}
+  }
 })()
