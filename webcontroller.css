@@ -39,7 +39,7 @@
     display: flex;
   }
 /*for any phone touch device*/
- @media (max-width: 512px) { 
+@media only screen and (orientation: portrait) { { 
   .touch .pico8_el {
     display: none;
   }
