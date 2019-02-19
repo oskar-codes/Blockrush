@@ -465,18 +465,7 @@
       pico8_buttons = [0, 0, 0, 0, 0, 0, 0, 0], // <= the first element in this array will be updated by the touch-buttons
       pico8_gpio = new Array(128),              // <= used to let pico8-cart change buttonset
       changeButtonset;                          // usage: changeButtonset(2) to activates .buttonset-2
-    
-    var isPaused=false
-    function pauseGame() {
-      if (isPaused==true) {
-        isPaused=false;
-        pico8_buttons[0]=64;
-      } else
-        isPaused=true
-        pico8_buttons[0]=0;
-      }
-    }
-  
+      
     (function(){ // locally scoped
       var
         allAnalogSticks=document.querySelectorAll(".axis-analog .btn__stick");
@@ -687,6 +676,17 @@
       // prevent "tilt-zooming" when accidentally touching between the buttons
       document.getElementById("btns-wrapper").addEventListener("touchstart", function(evt){ evt.preventDefault(); }, false);
     })();
+  }
+  
+  var isPaused=false
+  function pauseGame() {
+    if (isPaused==true) {
+      isPaused=false;
+      pico8_buttons[0]=64;
+    } else
+      isPaused=true
+      pico8_buttons[0]=0;
+    }
   }
 </script>
 
