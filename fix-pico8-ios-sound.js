@@ -18,18 +18,19 @@
 
   // create overlay
   var o = document.createElement('div')
-  o.innerHTML = 'Press anywhere'
   o.style.cssText = [
     'position: fixed',
     'top: 0',
     'left: 0',
     'right: 0',
     'bottom: 0',
-    'background: rgb(128, 128, 128)',
-    'background: rgba(128, 128, 128, 0.5)',
+    'background: rgba(41, 173, 255, 0.5)',
+    'background-image: url(https://oskar-codes.github.io/Dodge/45D35450-AA26-4BF2-9B2B-63743933DBD1.png)',
+    'background-repeat: no-repeat',
+    'background-attachment: fixed',
+    'background-position: 50% 30%',
     'color: white',
     'text-align: center',
-    'padding-top: 200px',
   ].map(function(p) { return p + ';' }).join('')
   document.body.appendChild(o)
 
