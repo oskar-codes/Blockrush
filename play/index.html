@@ -75,6 +75,12 @@
 
 <body>
 
+<script>
+	function backToLauncher() {
+		window.location.assign("https://oskar-codes.github.io/Pico-8-Launcher");
+	}
+</script>
+  
 <script type="text/javascript">
   // ----------------- DISPLAY TOUCH CONTROLS? ----------------- %>
   if(
@@ -152,7 +158,7 @@
       <img
         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAXklEQVR4Ae2doQ4AIQxD4YLH8v9fh+ULhjpxxSwLg2uyapr1JRu1iV5Z+1BGl4+xNpX38SYo2uRvYiT5LwEmt+ocgXVLrhPEgBiw8Q5w7/kueSkK+D2tJO4E/I3GrwkqQCBabEj/4QAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII="
         alt="Toggle Sound" width=12 height=12/> Sound</span>
-    <span class="pico8_el"><a href="https://oskar-codes.github.io/Pico-8-Launcher">Launcher</a></span>
+    <span class="pico8_el" onclick="backToLauncher()">Launcher</span>
   </div>
 </div>
 
