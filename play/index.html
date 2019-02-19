@@ -133,15 +133,14 @@
   </script>
 
   <script src="ios-sound.js" data-original-file="blockrush.js"></script>       <!-- <= INCLUDES YOUR cart.js FILE -->
-
-
+  
   <!-- PICO8 CONTROL BUTTONS [reset] [pause] [fullscreen - not visible when using touch-control] [mute] -->
   <div class="pico8_btns">
     <span class="pico8_el" onclick="Module.pico8Reset();">
       <img
         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAaklEQVR4Ae2dOwoAMQhE15A+rfc/3bZ7AlMnQfywCkKsfcgMM9ZP+QHtIn0vLeBAFduiFdQ/0DmvtR5LXJ6CPSXe2ZXcFNlTxFbemKrbZPs35XogeS9xeQr+anT6LzoOwEDwZJ7jwhXUnwkTTiDQ2Ja34AAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII="
         alt="Reset" width=12 height=12/> Reset</span>
-    <span class="pico8_el" onclick="Module.pico8TogglePaused();">
+    <span class="pico8_el" onclick="pauseGame()"><!--Default : Module.pico8TogglePaused();-->
       <img
         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAPUlEQVR4Ae3doQ0AIAxEUWABLPtPh2WCq26DwFSU/JPNT166QSu/Hg86W9dwLte+diP7AwAAAAAAgD+A+jM2ZAgo84I0PgAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII="
         alt="Pause" width=12 height=12/> Pause</span>
@@ -153,6 +152,7 @@
       <img
         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAXklEQVR4Ae2doQ4AIQxD4YLH8v9fh+ULhjpxxSwLg2uyapr1JRu1iV5Z+1BGl4+xNpX38SYo2uRvYiT5LwEmt+ocgXVLrhPEgBiw8Q5w7/kueSkK+D2tJO4E/I3GrwkqQCBabEj/4QAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII="
         alt="Toggle Sound" width=12 height=12/> Sound</span>
+    <span class="pico8_el"><a href="https://oskar-codes.github.io/Pico-8-Launcher">Launcher</a></span>
   </div>
 </div>
 
@@ -465,6 +465,18 @@
       pico8_buttons = [0, 0, 0, 0, 0, 0, 0, 0], // <= the first element in this array will be updated by the touch-buttons
       pico8_gpio = new Array(128),              // <= used to let pico8-cart change buttonset
       changeButtonset;                          // usage: changeButtonset(2) to activates .buttonset-2
+    
+    var isPaused=false
+    function pauseGame() {
+      if (isPaused==true) {
+        isPaused=false;
+        pico8_buttons[0]=64;
+      } else
+        isPaused=true
+        pico8_buttons[0]=0;
+      }
+    }
+  
     (function(){ // locally scoped
       var
         allAnalogSticks=document.querySelectorAll(".axis-analog .btn__stick");
